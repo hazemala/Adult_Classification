@@ -3,7 +3,7 @@ from flask import Flask, request, jsonify, render_template
 import joblib
 import pandas as pd
 import numpy as np
-from custom_transforemer import LogTransfomer, LogTransfomer_0, Handle_Ub_Lb
+from custom_transformers import LogTransfomer, LogTransfomer_0, Handle_Ub_Lb
 
 
 app = Flask(__name__)
